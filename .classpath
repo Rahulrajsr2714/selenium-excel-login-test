@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/eclipse-workspace/MashupTest/reqdep/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
