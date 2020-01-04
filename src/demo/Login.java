@@ -25,23 +25,23 @@ public class Login {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\bin\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "[chrome driver location]");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.mashupstack.com/login");
+		driver.get("url for testing");
 		
 		
-		File src=new File("C:\\Users\\user\\Desktop\\testdata.xlsx");
+		File src=new File("[location for excel file]");
 		FileInputStream finput = new FileInputStream(src);
 		XSSFWorkbook workbook = new XSSFWorkbook(finput);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 		
-		for(int i=1;i<=sheet.getLastRowNum();i++) {
+		for(int i=1;i<=sheet.getLastRowNum();i++) { //looping through all the elements
 			driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);//wait for 30 seconds before showing an exception
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);//wait for 30sec to load the element before showing an exception
 			
-			WebElement email = driver.findElement(By.xpath("//input[@id='email']"));
-			WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
-			WebElement loginbtn = driver.findElement(By.xpath("//input[@class='btn btn-block btn-primary']"));
+			WebElement email = driver.findElement(By.xpath("//input[@id='email']"));//input field of email
+			WebElement password = driver.findElement(By.xpath("//input[@id='password']"));//input field of password
+			WebElement loginbtn = driver.findElement(By.xpath("//input[@class='btn btn-block btn-primary']"));//login button
 			
 			email.clear();
 			password.clear();
