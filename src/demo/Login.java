@@ -79,8 +79,8 @@ public class Login {
 //		WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
 //		WebElement loginbtn = driver.findElement(By.xpath("//input[@class='btn btn-block btn-primary']"));
 //			
-//		email.sendKeys("vishnukut8@gmail.com");
-//		password.sendKeys("vishnu1998");
+//		email.sendKeys("");
+//		password.sendKeys("");
 //		loginbtn.click();
 	}
 
